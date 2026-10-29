@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HTML Learning Project - Learn the Building Blocks of the Web"
+    />
+    <title>HTML Learning Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header-banner">
+        <h1 class="heading-title">🌐 HTML Learning Project</h1>
+        <p class="header-subtitle">Master the Building Blocks of the Web</p>
+      </header>
+
+      <main>
+         <div class="kyy">
+      <marquee direction="left"><h3>Haii My Name is kyy,This is my first assignment.</h3></marquee>
+    </div>
+        <section id="what-is-html" class="card-section">
+          <h2 class="section-title">🚀 What is HTML?</h2>
+
+          <p>
+            <strong>HTML (HyperText Markup Language)</strong> is the standard
+            markup language for creating web pages. Think of it as the skeleton
+            or foundation of every website you visit.
+          </p>
+
+          <blockquote class="badge-box">
+            <strong class="highlight-text">Key Points:</strong>
+            <ul>
+              <li>
+                <strong>HyperText:</strong> Text with links to other texts.
+              </li>
+              <li>
+                <strong>Markup:</strong> A way to annotate text to show
+                structure and meaning.
+              </li>
+              <li>
+                <strong>Language:</strong> A set of rules and syntax for
+                creating web content.
+              </li>
+            </ul>
+          </blockquote>
+
+          <h3 class="sub-title">🏗️ How HTML Works</h3>
+
+          <p>
+            HTML uses <strong>tags</strong> to define elements. Tags are
+            keywords surrounded by angle brackets like
+            <code>&lt;tagname&gt;</code>. Most tags come in pairs:
+          </p>
+
+          <pre><code>&lt;tagname&gt;Content goes here&lt;/tagname&gt; &lt;h1&gt;This is a heading&lt;/h1&gt; &lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
+        </section>
+
+        <section id="basic-structure" class="card-section">
+          <h2 class="section-title">📋 Basic HTML Structure</h2>
+
+          <p>Every HTML document follows this basic structure:</p>
+
+          <pre><code>&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; &lt;title&gt;Page Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;Welcome to My Website&lt;/h1&gt; &lt;p&gt;This is my first paragraph.&lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</code></pre>
+
+          <blockquote class="badge-box">
+            <h3 class="sub-title">Structure Breakdown:</h3>
+            <ul>
+              <li>
+                <strong>&lt;!DOCTYPE html&gt;</strong>Tells the browser this
+                is HTML5.
+              </li>
+              <li><strong>&lt;html&gt;</strong>Root element of the page.</li>
+              <li>
+                <strong>&lt;head&gt;</strong>Contains metadata that is not
+                directly visible on the page.
+              </li>
+              <li>
+                <strong>&lt;body&gt;</strong>Contains the visible content of
+                the webpage.
+              </li>
+            </ul>
+          </blockquote>
+        </section>
+
+        <section id="essential-tags" class="card-section">
+          <h2 class="section-title">🏷️ Essential HTML Tags</h2>
+
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Tag</th>
+                <th>Purpose</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;h1&gt; &lt;h6&gt;</td>
+                <td>Headings (largest to smallest)</td>
+                <td><code>&lt;h1&gt;Main Title&lt;/h1&gt;</code></td>
+              </tr>
+              <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraphs</td>
+                <td><code>&lt;p&gt;This is text&lt;/p&gt;</code></td>
+              </tr>
+              <tr>
+                <td>&lt;a&gt;</td>
+                <td>Links</td>
+                <td><code>&lt;a href="url"&gt;Link text&lt;/a&gt;</code></td>
+              </tr>
+              <tr>
+                <td>&lt;img&gt;</td>
+                <td>Images</td>
+                <td>
+                  <code>&lt;img src="image.jpg" alt="Description"&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;div&gt;</td>
+                <td>Container/section</td>
+                <td><code>&lt;div&gt;Content here&lt;/div&gt;</code></td>
+              </tr>
+              <tr>
+                <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td>
+                <td>Lists</td>
+                <td>
+                  <code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="sub-title">🎯 Live Examples</h3>
+
+          <div class="live-examples">
+            <h1 class="heading-title">This is an H1 heading</h1>
+            <h2 class="section-title">This is an H2 heading</h2>
+            <h3 class="sub-title">This is an H3 heading</h3>
+
+            <p>
+              This is a paragraph with <strong>bold text</strong> and
+              <em>italic text</em>.
+            </p>
+            <p>Here's a <a href="#">sample link</a>.</p>
+
+            <h4 class="small-title">Unordered List</h4>
+            <ul>
+              <li>First item</li>
+              <li>Second item</li>
+              <li>Third item</li>
+            </ul>
+
+            <h4 class="small-title">Ordered List</h4>
+            <ol>
+              <li>Step one</li>
+              <li>Step two</li>
+              <li>Step three</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="forms" class="card-section">
+          <h2 class="section-title">📝 HTML Forms</h2>
+
+          <p>Forms allow users to input data. Here's a working example:</p>
+
+          <pre><code>&lt;form&gt; &lt;label for="name"&gt;Name:&lt;/label&gt; &lt;input type="text" id="name" name="name"&gt; &lt;label for="email"&gt;Email:&lt;/label&gt; &lt;input type="email" id="email" name="email"&gt; &lt;label for="message"&gt;Message:&lt;/label&gt; &lt;textarea id="message" name="message"&gt;&lt;/textarea&gt; &lt;button type="submit"&gt;Submit&lt;/button&gt; &lt;/form&gt;</code></pre>
+
+          <div class="live-examples">
+            <h4 class="small-title">Try this form:</h4>
+
+            <form class="custom-form">
+              <p>
+                <label for="name"><strong>Name:</strong></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+              </p>
+
+              <p>
+                <label for="email"><strong>Email:</strong></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </p>
+
+              <p>
+                <label for="subject"><strong>Subject:</strong></label>
+                <select id="subject" name="subject">
+                  <option value="">Choose a topic...</option>
+                  <option value="question">Question</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="support">Support</option>
+                </select>
+              </p>
+
+              <p>
+                <label for="message"><strong>Message:</strong></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Type your message here..."
+                ></textarea>
+              </p>
+
+              <button type="submit" class="btn-submit">Submit Form</button>
+            </form>
+          </div>
+        </section>
+
+        <section id="attributes" class="card-section">
+          <h2 class="section-title">🎨 HTML Attributes</h2>
+
+          <p>Attributes provide additional information about HTML elements:</p>
+
+          <pre><code>&lt;!-- Common attributes --&gt; &lt;img src="photo.jpg" alt="A beautiful sunset" width="300" height="200"&gt; &lt;a href="https://example.com" target="_blank" title="Visit Example"&gt; Click here &lt;/a&gt; &lt;div class="container" id="main-content" style="color: blue;"&gt; Content &lt;/div&gt;</code></pre>
+
+          <blockquote class="badge-box">
+            <h3 class="sub-title">Important Attributes:</h3>
+            <ul>
+              <li><strong>id: </strong>Unique identifier for an element.</li>
+              <li><strong>class: </strong>Groups elements for styling.</li>
+              <li>
+                <strong>src: </strong>Source file for images, videos, etc.
+              </li>
+              <li><strong>href: </strong>URL for links.</li>
+              <li><strong>alt: </strong>Alternative text for images.</li>
+              <li><strong>style: </strong>Inline CSS styling.</li>
+            </ul>
+          </blockquote>
+        </section>
+
+        <section id="tables" class="card-section">
+          <h2 class="section-title">📊 Tables in HTML</h2>
+
+          <p>Tables organize data in rows and columns:</p>
+
+          <pre><code>&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Name&lt;/th&gt; &lt;th&gt;Age&lt;/th&gt; &lt;th&gt;City&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;td&gt;New York&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</code></pre>
+
+          <div class="live-examples">
+            <h4 class="small-title">Sample Table:</h4>
+
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Student</th>
+                  <th>Subject</th>
+                  <th>Grade</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alice Johnson</td>
+                  <td>Mathematics</td>
+                  <td>A+</td>
+                  <td>✅ Passed</td>
+                </tr>
+                <tr>
+                  <td>Bob Smith</td>
+                  <td>Physics</td>
+                  <td>B</td>
+                  <td>✅ Passed</td>
+                </tr>
+                <tr>
+                  <td>Carol Davis</td>
+                  <td>Chemistry</td>
+                  <td>A</td>
+                  <td>✅ Passed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="practice" class="card-section practice-theme">
+          <h2 class="section-title">💻 Practice Exercises</h2>
+
+          <h3 class="sub-title">Beginner Tasks:</h3>
+          <ol>
+            <li>
+              Create a basic HTML page with a title, heading, and paragraph.
+            </li>
+            <li>Add an image with alt text.</li>
+            <li>Create a list of your favorite movies.</li>
+            <li>Build a simple table with your weekly schedule.</li>
+          </ol>
+
+          <h3 class="sub-title">Intermediate Tasks:</h3>
+          <ol>
+            <li>Create a contact form with different input types.</li>
+            <li>Build a navigation menu with links.</li>
+            <li>Design a simple blog post layout.</li>
+            <li>Create a photo gallery grid.</li>
+          </ol>
+        </section>
+
+        <section id="project-structure" class="card-section">
+          <h2 class="section-title">🗂️ Project Structure</h2>
+
+          <p>Here's how to organize your HTML project:</p>
+
+          <pre class="tree-code"><code>my-website/
+│
+├── index.html
+├── about.html
+├── contact.html
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    ├── logo.png
+    ├── hero-image.jpg
+    └── gallery/
+        ├── photo1.jpg
+        └── photo2.jpg</code></pre>
+        </section>
+
+        <section id="next-steps" class="card-section next-steps-theme">
+          <h2 class="section-title">🎯 Next Steps in Your Learning Journey</h2>
+
+          <p>After mastering HTML, continue with:</p>
+
+          <ul>
+            <li>
+              <strong>CSS (Cascading Style Sheets): </strong>Style your HTML
+              elements.
+            </li>
+            <li>
+              <strong>JavaScript: </strong>Add interactivity and dynamic
+              behavior.
+            </li>
+            <li>
+              <strong>Responsive Design: </strong>Make websites work on all
+              devices.
+            </li>
+            <li>
+              <strong>Web Accessibility: </strong>Make websites usable for
+              everyone.
+            </li>
+            <li>
+              <strong>Modern Frameworks: </strong>React, Vue.js, or Angular.
+            </li>
+          </ul>
+        </section>
+
+        <section id="tools" class="card-section">
+          <h2 class="section-title">🔧 Development Tools</h2>
+
+          <blockquote class="badge-box">
+            <strong class="highlight-text">Recommended Tools:</strong>
+            <ul>
+              <li>
+                <strong>Text Editors:</strong> VS Code, Sublime Text, Atom
+              </li>
+              <li>
+                <strong>Browsers:</strong> Chrome DevTools, Firefox Developer
+                Tools
+              </li>
+              <li><strong>Version Control:</strong> Git and GitHub</li>
+              <li>
+                <strong>Online Editors:</strong> CodePen, JSFiddle, Replit
+              </li>
+            </ul>
+          </blockquote>
+        </section>
+
+        <section id="congratulations" class="card-section congrat-theme">
+          <h2 class="section-title">🎉 Congratulations!</h2>
+
+          <p>
+            You've completed the HTML Learning Project! You now understand the
+            fundamentals of HTML and can create your own web pages.
+            Keep practicing and building projects to strengthen your skills.
+          </p>
+
+          <p>
+            <strong>Remember:</strong> The best way to learn HTML is by doing.
+            Start building your own projects!
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
